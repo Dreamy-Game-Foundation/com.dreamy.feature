@@ -1,9 +1,14 @@
 using Dreamy.UI;
+using UnityEngine;
 
 namespace Dreamy.Feature
 {
-    public abstract class FeaturePanel : UIPanel
+    public class FeaturePanel : UIPanel
     {
-        public abstract FeatureId FeatureId { get; }
+        [SerializeField] private string featureId = "feature.base";
+        [SerializeField] private bool canBack = true;
+
+        public override bool CanBack => canBack;
+        public FeatureId FeatureId => new(featureId);
     }
 }

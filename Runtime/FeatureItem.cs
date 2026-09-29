@@ -2,8 +2,11 @@ using UnityEngine;
 
 namespace Dreamy.Feature
 {
-    public abstract class FeatureItem : MonoBehaviour
+    public class FeatureItem : MonoBehaviour
     {
-        public abstract void SetVisible(bool visible);
+        public virtual void SetVisible(bool visible)
+        {
+            gameObject.SetActive(visible);
+        }
     }
 }
