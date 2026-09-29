@@ -1,0 +1,9 @@
+{
+  "name": "com.dreamy.feature",
+  "version": "0.1.0",
+  "displayName": "Dreamy Feature",
+  "description": "Lightweight shared contracts and UI bases for casual game features.",
+  "unity": "6000.0",
+  "type": "library",
+  "dependencies": { "com.dreamy.ui": "0.2.0" }
+}

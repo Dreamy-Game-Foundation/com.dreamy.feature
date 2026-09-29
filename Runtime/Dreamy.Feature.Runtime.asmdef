@@ -1,0 +1,7 @@
+{
+  "name": "Dreamy.Feature.Runtime",
+  "rootNamespace": "Dreamy.Feature",
+  "references": ["Dreamy.UI.Runtime"],
+  "includePlatforms": [], "excludePlatforms": [], "allowUnsafeCode": false, "overrideReferences": false,
+  "precompiledReferences": [], "autoReferenced": true, "defineConstraints": [], "versionDefines": [], "noEngineReferences": false
+}
