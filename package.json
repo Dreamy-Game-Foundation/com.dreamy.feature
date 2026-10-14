@@ -6,5 +6,7 @@
   "unity": "6000.0",
   "type": "library",
   "author": { "name": "Dreamy Game Studio" },
-  "dependencies": {}
+  "dependencies": {
+    "com.dreamy.dataconfig": "0.2.0"
+  }
 }
